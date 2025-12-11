@@ -19,8 +19,7 @@ from nonebot_plugin_htmlrender import template_to_pic
 
 from zhenxun.configs.config import Config
 from zhenxun.configs.utils import PluginExtraData, RegisterConfig
-from zhenxun.services.llm import generate_structured
-from zhenxun.services.llm.types.content import LLMContentPart
+from zhenxun.services.llm import generate_structured, LLMContentPart
 from zhenxun.services.llm.types.exceptions import LLMException
 from zhenxun.services.log import logger
 from zhenxun.utils.http_utils import AsyncHttpx
